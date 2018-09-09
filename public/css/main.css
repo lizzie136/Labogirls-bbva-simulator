@@ -9,6 +9,10 @@ header {
   align-content: center;
 }
 
+h3 {
+ text-align: center;
+}
+
 hr {
   margin-bottom: 30px;
 }
@@ -40,11 +44,21 @@ hr {
   outline-color: #1464A5;
 }
 
-.sell-form form button {
+.sell-form form button,
+.notification-form button {
   background: #004481;
   border: none;
   color: #fff;
   padding: 13px;
+}
+
+.notification-form{
+  text-align: center;
+}
+
+.notification-form button {
+  width: 90%;
+  margin: auto;
 }
 
 .sell-form-date {

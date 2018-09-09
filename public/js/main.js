@@ -14,7 +14,13 @@ const setParameters = (url) => {
   }
 };
 
+
 window.addEventListener('load', ()=>{
   setParameters(window.location);
-
+  const cb = (ev)=>{
+    ev.preventDefault();
+    window.location = './confirmation.html';
+  };
+  const btn = document.getElementById('send-payment');
+  btn.addEventListener('click', cb);
 });
