@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BBVA Bancomer | Simulador</title>
+    <meta name="description" content="Simulador BBVA Bancomer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header>
+      <img src="./assets/logo-bbva-bancomer.svg" alt="BBVA Bancomer">
+    </header>
+    <section class="transfer-title">
+        <img src="./assets/arrows.svg" alt="Otras cuentas"> <span>Otras cuentas BBVA Bancomer</span>
+    </section>
+    <hr>
+    <section class="sell-form">
+      <form action="">
+        <label for="account-type">Tipo de cuenta</label>
+        <input type="text" name="account-type" placeholder="Número de cuenta/tarjeta">
+
+        <label for="account-number">Número de cuenta/tarjeta</label>
+        <input type="text" name="account-number">
+
+        <label for="amount">Importe</label>
+        <input type="currency" name="amount"> 
+
+        <label for="motive">Motivo de pago</label>
+        <input type="text" name="motive">
+
+        <div class="sell-form-date">
+          <span class="date-label">Fecha de Operación</span>
+          <span class="date-value">09/09/2018</span>
+        </div>
+
+        <button type="submit">Continuar</button>
+      </form>
+    </section>
+    <script src="./js/main.js" async defer></script>
+  </body>
+</html>

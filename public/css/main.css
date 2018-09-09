@@ -1,0 +1,77 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+hr {
+  margin-bottom: 30px;
+}
+
+.sell-form form{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.sell-form form label,
+.sell-form form input,
+.sell-form form > *{
+  flex-basis: 100%;
+  font-size: 1rem;
+}
+
+.sell-form form input {
+  border: 1px solid #043263;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  margin-bottom: 15px;  
+  padding: 10px;
+  text-align: center;
+}
+
+.sell-form form button {
+  background: #004481;
+  color: #fff;
+  padding: 13px;
+}
+
+.sell-form-date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.sell-form-date .date-label {
+  color: #004481;
+}
+
+.sell-form-date .date-value {
+  align-self: flex-end;
+}
+
+.transfer-title {
+  color: #1464A5;
+  display: flex;
+  align-content: flex-end;
+  align-content: center;
+  align-items: flex-end;
+  justify-content: center;
+  height: 3rem;
+}
+
+.transfer-title img{
+  height: 1.5rem;
+}
+
+.transfer-title span{
+  font-size: 1.2rem;
+  padding-left: 5px;
+}

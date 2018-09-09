@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const url = require('url');
 
 const app = express();
@@ -11,5 +12,8 @@ app.get('/venta', (req, res) => {
   res.send(query);
 
 });
+
+
+app.use('/static', express.static(path.join(__dirname, 'public')));
 
 app.listen(PORT, () => console.log('Example app listening on port 3000!'));
