@@ -5,7 +5,7 @@ const setParameters = (url) => {
   
   const params = new URLSearchParams(url.search.slice(1));
   for(let param of params.entries()){
-    const element = document.querySelector(`[data-model=${param[0]}`);
+    const element = document.querySelector('[data-model='+param[0]+']');
     if(!element) continue;
     element.value  = param[1];
     if(element.value && param[0] === 'fecha') {
