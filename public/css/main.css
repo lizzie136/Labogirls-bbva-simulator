@@ -36,8 +36,13 @@ hr {
   text-align: center;
 }
 
+.sell-form form input:focus {
+  outline-color: #1464A5;
+}
+
 .sell-form form button {
   background: #004481;
+  border: none;
   color: #fff;
   padding: 13px;
 }
